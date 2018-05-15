@@ -1,0 +1,1 @@
+addpath(genpath('C:\Users\lenovo\OneDrive\Workspace\UGM'))
