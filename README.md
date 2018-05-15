@@ -2,7 +2,7 @@
 This is a Matlab toolbox builded by XinNoil
 
 # Usage
-- Open pathdef.m, add the path to pathdef.m, like:
+- Open pathdef.m, add `C:\Path\MyMatlabTools` and `C:\Path\MyMatlabTools\IndoorLoc`the path to pathdef.m, like:
 
 ```
 function p = pathdef
@@ -20,8 +20,8 @@ function p = pathdef
 
 p = [...
 %%% BEGIN ENTRIES %%%
-     *'C:\MyMatlabTools;', ...*
-	 *'C:\MyMatlabTools\IndoorLoc;', ...*
+     'C:\Path\MyMatlabTools;', ...
+	 'C:\Path\MyMatlabTools\IndoorLoc;', ...
      matlabroot,'\toolbox\matlab\datafun;', ...
 	 ...
 ```
