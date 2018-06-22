@@ -33,20 +33,3 @@ if nargin>6
     set(gca,'xticklabel',xt);
 end
 set(gcf,'Units','centimeters','Position',[1 1 24 20]);
-
-%{
-% res(1)=getError(XData,YData,0.5);
-% res(2)=getError(XData,YData,0.8);
-% res(3)=getError(XData,YData,0.85);
-% res(4)=getError(XData,YData,0.90);
-% res(5)=getError(XData,YData,0.95);
-% res(6)=getPer(XData,YData,0.5);
-% res(7)=getPer(XData,YData,1);
-% res(8)=getPer(XData,YData,1.5);
-% res(9)=getPer(XData,YData,2.0);
-% res(10)=getPer(XData,YData,2.5);
-% res(11)=getPer(XData,YData,3.0);
-% res(12)=getPer(XData,YData,3.5);
-% res(13)=getPer(XData,YData,4.0);
-% res(14)=getPer(XData,YData,4.5);
-%}
